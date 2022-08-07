@@ -34,7 +34,7 @@ function Navbar() {
                             <a href="#" className="btn"><FaUserPlus style={{marginRight:'3px'}}/>Register</a>
                         </div>
                         <div className="login">
-                            <a href="#" className="btn"><FaShoppingCart style={{marginRight:'3px'}}/>Cart (0)</a>
+                            <a href="#" className="btn"><FaShoppingCart style={{marginRight:'3px'}}/>Cart <span>0</span></a>
                         </div>
                     </div>
                 </div>

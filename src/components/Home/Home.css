@@ -1,0 +1,32 @@
+.home {
+  position: relative;
+}
+.home .hero img {
+  margin-top: 40px;
+  opacity: 0.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .content {
+  position: absolute;
+  top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home .content .header {
+  padding-left: 20px;
+  width: 550px;
+}
+.home .content .header h3 {
+  font-size: 55px;
+  margin: 20px 0;
+}
+.home .content .body {
+  padding-left: 20px;
+}
+.home .content .body p {
+  font-size: 25px;
+}/*# sourceMappingURL=Home.css.map */

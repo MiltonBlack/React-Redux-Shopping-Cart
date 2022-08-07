@@ -1,0 +1,33 @@
+.home{
+    position: relative;
+    .hero{
+            img{
+                margin-top: 40px;
+                opacity: .5;
+                object-fit: cover;
+            }
+    }
+    .content{
+        position: absolute;
+        top: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .header{
+            padding-left: 20px;
+            width: 550px;
+            h3{
+                font-size: 55px;
+                margin:20px 0;
+            }
+        }
+        .body{
+            padding-left: 20px;
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+}

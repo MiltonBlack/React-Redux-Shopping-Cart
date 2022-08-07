@@ -1,8 +1,11 @@
 .navbar{
     width: 100%;
-    // height: 90px;
     background-color: #777;
     box-shadow: 2px 2px 4px black;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
     .container{
         display: flex;
         align-items: center;
@@ -38,11 +41,30 @@
                         font-size: 15px;
                         display: flex;
                         align-items: center;
+                        position: relative;
+                        span{
+                            position: absolute;
+                            top: -17px;
+                            right: -20px;
+                            padding: 5px;
+                            height: 15px;
+                            width: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: black;
+                            border-radius: 50%;
+                            transition: .5s linear;
+                        }
                     }
                     &:hover{
                         background-color: #fff;
                         .btn{
                             color:black;
+                            span{
+                                background-color: #fff;
+                            }
                         }
                     }
                 }
