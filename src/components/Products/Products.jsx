@@ -4,23 +4,14 @@ import ProductArray from '../Products.json'
 import ProductItem from '../ProductItem/ProductItem'
 
 const Products = () => {
-    // const productsFilter = () => {
-    //     return (
-    //         <>
-    //             <div className="buttons">
-    //                 <button>All</button>
-    //                 <button>drinks</button>
-    //             </div>
-    //         </>
-    //     )
-    // }
-
-    const [data, setData] = useState(ProductArray)
+    
+    const [data] = useState(ProductArray)
     const [filtered, setFiltered] = useState(data)
     const filterProduct = (cat) => {
         const update = data.filter((x)=> x.category === cat);
         setFiltered(update);
     }
+    
   return (
     <div className='products'>
         <div className="container">
@@ -37,7 +28,7 @@ const Products = () => {
                 <div className="grid">
                     {filtered.map((item, index) => {
                         return (
-                            <ProductItem key={index} image={item.img} name={item.name} category={item.category}/>
+                            <ProductItem key={index} image={item.img} name={item.name} category={item.category} id={item.id}/>
                         )
                         
                     })}

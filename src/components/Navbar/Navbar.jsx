@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { FaUserPlus, FaShoppingCart, FaSignInAlt } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -13,28 +13,28 @@ function Navbar() {
                 </div>
                 <div className="links">
                     <div className="link">
-                        <a to='/'>Home</a>
+                        <NavLink to='/'>Home</NavLink>
                     </div>
                     <div className="link">
-                        <a to='/'>about</a>
+                        <NavLink to='/about'>about</NavLink>
                     </div>
                     <div className="link">
-                        <a to='/'>products</a>
+                        <NavLink to='/products'>products</NavLink>
                     </div>
                     <div className="link">
-                        <a to='/'>contact</a>
+                        <NavLink to='/contact'>contact</NavLink>
                     </div>
                 </div>
                 <div className="right">
                     <div className="widgets">
                         <div className="login">
-                            <a href="#" className="btn"><FaSignInAlt style={{marginRight:'3px'}}/>login</a>
+                            <NavLink to="/login" className="btn"><FaSignInAlt style={{marginRight:'3px'}}/>login</NavLink>
                         </div>
                         <div className="login">
-                            <a href="#" className="btn"><FaUserPlus style={{marginRight:'3px'}}/>Register</a>
+                            <NavLink to="/register" className="btn"><FaUserPlus style={{marginRight:'3px'}}/>Register</NavLink>
                         </div>
                         <div className="login">
-                            <a href="#" className="btn"><FaShoppingCart style={{marginRight:'3px'}}/>Cart <span>0</span></a>
+                            <NavLink to="/cart" className="btn"><FaShoppingCart style={{marginRight:'3px'}}/>Cart <span>0</span></NavLink>
                         </div>
                     </div>
                 </div>
