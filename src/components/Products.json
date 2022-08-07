@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img":"/asset/bbq.jpeg",
+        "name":"bbq",
+        "category":"food"
+    },
+    {
+        "id": 2,
+        "img":"/asset/bole.jpeg",
+        "name":"bole",
+        "category":"food"
+    },
+    {
+        "id": 3,
+        "img":"/asset/fish.jpeg",
+        "name":"fish",
+        "category":"food"
+    },
+    {
+        "id": 4,
+        "img":"/asset/cake.jpeg",
+        "name":"cake",
+        "category":"snack"
+    },
+    {
+        "id": 5,
+        "img":"/asset/egusi.jpeg",
+        "name":"egusi",
+        "category":"soup"
+    },
+    {
+        "id": 6,
+        "img":"/asset/burger.jpeg",
+        "name":"burger",
+        "category":"snacks"
+    },
+    {
+        "id": 7,
+        "img":"/asset/chicken.jpeg",
+        "name":"chicken",
+        "category":"meat"
+    },
+    {
+        "id": 8,
+        "img":"/asset/fried.jpeg",
+        "name":"fried rice",
+        "category":"food"
+    },
+    {
+        "id": 9,
+        "img":"/asset/icing.jpeg",
+        "name":"ice cream",
+        "category":"snacks"
+    },
+    {
+        "id": 10,
+        "img":"/asset/soup.jpeg",
+        "name":"soup",
+        "category":"soup"
+    }
+]
