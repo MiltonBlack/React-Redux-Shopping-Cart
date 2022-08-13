@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar">
             <div className="container">
                 <div className="logo-wrapper">
-                    <h1 className='logo'>ReduxExample</h1>
+                    <h1 className='logo'>RESTURANT</h1>
                 </div>
                 <div className="links">
                     <div className="link">
